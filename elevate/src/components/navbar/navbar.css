@@ -1,0 +1,92 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+    position: fixed;
+    top: 40px;
+    width: 100%;
+      }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    color: gray;
+    font-weight: 600;
+    border-radius: 20px;
+  }
+  
+  .dropbtn {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+  }
+  
+  .searchBar input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .searchButton {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .languageDropdown {
+    margin-left: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #282c34;
+  }
+  
+  .link {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+    color: #ff8f00;
+  }
+  
+  /* To style the select dropdown */
+  .dropdown select {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    outline: none;
+  }
+  
+  /* To style the option dropdown */
+  .dropdown option {
+    background-color: #282c34;
+    color: #ffffff;
+  }
+  
+  .dropdown option:hover {
+    background-color: #ff8f00;
+  }
+  

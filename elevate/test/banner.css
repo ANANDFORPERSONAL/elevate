@@ -1,0 +1,15 @@
+.banner {
+    background-image: './banner.jpg';
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .banner h1 {
+    font-size: 2em;
+  }
+  

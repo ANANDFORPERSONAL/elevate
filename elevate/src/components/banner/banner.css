@@ -1,0 +1,14 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .banner {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Set the height according to your preference */
+    background-image: url('banner.jpg'); /* Set the path to your banner image */
+    background-size: cover; /* Cover the entire div */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the image fixed */
+  }

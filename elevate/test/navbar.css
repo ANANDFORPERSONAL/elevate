@@ -1,0 +1,44 @@
+.navbar {
+  
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 32px;
+  }
+  
+  .dropdown, .languageDropdown {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .searchBar input {
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  .searchButton {
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .searchButton i {
+    color: white;
+  }
+  
+  .link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
